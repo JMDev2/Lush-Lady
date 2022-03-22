@@ -160,7 +160,7 @@
 .skincare1{
   height: 15rem;
   width: 10rem;
-  margin-top: -30%;
+  margin-top: -45%;
   margin-right: 10%;
   float: right;
   /* border: 1px solid black; */
@@ -172,7 +172,7 @@
 .skincare2{
   height: 15rem;
   width: 10rem;
-  margin-top: -30%;
+  margin-top: -45%;
   margin-right: 25%;
   float: right;
   /* border: 1px solid black; */
@@ -183,7 +183,7 @@
 .skincare3{
   height: 15rem;
   width: 10rem;
-  margin-top: -10%;
+  margin-top: -24%;
   margin-right: 10%;
   float: right;
   /* border: 1px solid black; */
@@ -195,8 +195,8 @@
 .skincare4{
   height: 15rem;
   width: 10rem;
-  margin-top: -10%;
-  margin-right: 5%;
+  margin-top: -24%;
+  margin-right: 25%;
   float: right;
   /* border: 1px solid black; */
   display: block;
@@ -207,8 +207,8 @@
 .skincare5{
   height: 15rem;
   width: 10rem;
-  margin-top: -10%;
-  margin-right: 5%;
+  margin-top: -24%;
+  margin-right: 40%;
   float: right;
   /* border: 1px solid black; */
   display: block;
