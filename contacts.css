@@ -66,12 +66,16 @@ input[type=submit]{
   color: white;
   cursor: pointer;
   background-color: green;
+  margin-bottom: 20px;
 }
 input[type=submit]:hover{
   background-color: red;
 }
 
-/* styling map location */
+.container{
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
 
 
 
