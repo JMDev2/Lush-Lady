@@ -81,10 +81,14 @@
   
   
 }
-.card-body img{
-  height: 350px;
-  margin-left: -40px;
+.card-main{
+  display: flex;
+  background-color: #ffb6fa;
+  padding: 5px;
+  height: 550px;
+  padding-top: 20px;
 }
+
 .main{
   background-color: #ffb6fa;
   padding: 5px;
@@ -103,13 +107,32 @@
   width: 10rem;
 }
 
-.skincare11 img{
-  height: 9rem;
-  width: 7rem;
+.haircare{
+  float: right;
+  position: relative;
+  left: -20rem;
 }
-.skincare22 img{
-  height: 10rem;
-  width: 10rem;
+.book{
+  position: relative;
+  left: -20rem;
+  bottom: -10rem;
+  /* font-size: 30px; */
+  
+}
+#book{
+  width: 20rem;
+  height: 5rem;
+  border-radius: 20px 20px 0 20px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+#book a:hover{
+  color: #ffb6fa;
+}
+.card-body{
+  position: relative;
+  left: -6%;
 }
 .skincare11{
   height: 15rem;
@@ -117,7 +140,7 @@
   margin-top: -30%;
   margin-right: 10%;
   float: right;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
   align-items: center;
   text-align: center;
@@ -129,7 +152,7 @@
   margin-top: -30%;
   margin-right: 25%;
   float: right;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-items: center;
   text-align: center;
   background-color: white;
@@ -140,7 +163,7 @@
   margin-top: -30%;
   margin-right: 10%;
   float: right;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
   align-items: center;
   text-align: center;
@@ -152,7 +175,7 @@
   margin-top: -30%;
   margin-right: 25%;
   float: right;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   align-items: center;
   text-align: center;
   background-color: white;
@@ -163,7 +186,7 @@
   margin-top: -10%;
   margin-right: 10%;
   float: right;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
   align-items: center;
   text-align: center;
@@ -175,7 +198,7 @@
   margin-top: -10%;
   margin-right: 5%;
   float: right;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
   align-items: center;
   text-align: center;
@@ -187,7 +210,7 @@
   margin-top: -10%;
   margin-right: 5%;
   float: right;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: block;
   align-items: center;
   text-align: center;
@@ -206,54 +229,87 @@
   width: 10rem;
 }
 .cart5{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 38px;
   width: 9.9rem;
   background-color: purple;
   display: none;
 }
 .cart4{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 38px;
   width: 9.9rem;
   background-color: purple;
   display: none;
 }
 .cart3{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 38px;
   width: 9.9rem;
   background-color: purple;
   display: none;
 }
 .cart2{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 38px;
   width: 9.9rem;
   background-color: purple;
   display: none;
 }
 .cart1{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 38px;
   width: 9.9rem;
   background-color: purple;
   display: none;
 }
 .cart22{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 38px;
   width: 9.9rem;
   background-color: purple;
   display: none;
 }
 .cart11{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 54px;
   width: 9.9rem;
   background-color: purple;
   
   display: none;
+}
+
+.button {
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 20rem;
+}
+@keyframes glowing {
+  0% {
+    background-color: #2ba805;
+    box-shadow: 0 0 5px #2ba805;
+  }
+  50% {
+    background-color: #49e819;
+    box-shadow: 0 0 20px #49e819;
+  }
+  100% {
+    background-color: #2ba805;
+    box-shadow: 0 0 5px #2ba805;
+  }
+}
+.button {
+  animation: glowing 1300ms infinite;
 }
 
 
