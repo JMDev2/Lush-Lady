@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    
+}
+.text-center h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.text-center img{
+    height: 18vh;
+    width: 18vh;
+}
+.text-center{
+    height: 18vh;
+
+}
+.nav2{
+    background-color: pink;
+    background-image: linear-gradient(to right, rgba(168, 18, 148, 0.911) 20%,rgb(235, 109, 92) 100%, rgb(245, 220, 217)20%);
+    height: 10vh;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    background-color: white;
+}
+.logos{
+   height: 20vh;
+   background-color: aqua;
+   display: flex;
+   padding-left: 15rem;
+  align-items: center;
+}
+.logo1 img{
+  width: 60px;
+}
+.line1{
+  width: 40%;
+}
+.line2{
+  width: 43%;
+  
+}
+.text{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.beauty p{
+  text-align: center;
+}
+.card-text{
+  border: 1px solid black;
+  position: relative;
+  left: -12%;
+  top: 15.7px;
+  width: 17.9rem;
+  height: 40px;
+  background-color: aqua;
+  
+}
+.beauty{
+  display: block;
+}
+.card{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+/* html, body {margin: 0px; padding: 0px; width: 100%; height: 100%;}
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+} */
+.carousel-item img {width: 100%; height: 80vh;}
+.carousel-item video {width: 100%; height: 200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+  background: #121213;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
