@@ -43,6 +43,7 @@ input[type=text],textarea{
   margin-bottom: 16px;
   resize: vertical;
   width: 100%;
+  background: transparent;
 }
 input[type=email]{
   padding: 12px;
@@ -51,6 +52,7 @@ input[type=email]{
   margin-bottom: 16px;
   resize: vertical;
   width: 100%;
+  background: transparent;
 }
 input[type=phone]{
   padding: 12px;
@@ -59,6 +61,7 @@ input[type=phone]{
   margin-bottom: 16px;
   resize: vertical;
   width: 100%;
+  background: transparent;
 }
 input[type=submit]{
   padding: 12px 20px;
@@ -67,14 +70,15 @@ input[type=submit]{
   cursor: pointer;
   background-color: green;
   margin-bottom: 20px;
+  background: transparent;
 }
 input[type=submit]:hover{
   background-color: red;
 }
 
 .container{
-  margin-bottom: 70px;
-  margin-top: 70px;
+  margin-bottom: 50px;
+  /* margin-top: 70px; */
 }
 
 
