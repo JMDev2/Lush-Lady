@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    
+}
+.text-center h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.text-center img{
+    height: 18vh;
+    width: 18vh;
+}
+.text-center{
+    height: 18vh;
+
+}
+.nav2{
+    background-color: pink;
+    background-image: linear-gradient(to right, rgba(168, 18, 148, 0.911) 20%,rgb(235, 109, 92) 100%, rgb(245, 220, 217)20%);
+    height: 10vh;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    background-color: white;
+}
+.container{
+
+}
+.card{
+  height: 200;
+  width: 200;
+}
+.img-fluid{
+  display: block;
+  width: 300;
+  height: 300 ;
+}
+.image__overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: #fff solid 4px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  color: rgb(231, 219, 221);
+  font-family: 'quicksand',sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  border: 20px;
+  transition: opacity 0.25s;
+}
+.image__overlay >*{
+transform: translateY(20px);
+transition: transform 0.25s;
+}
+.image__overlay:hover{
+  opacity: 1;
+}
+.image__title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+  background: #121213;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
