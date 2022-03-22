@@ -71,6 +71,11 @@ input[type=submit]:hover{
   background-color: red;
 }
 
+/* styling map location */
+#map{
+  height: 500px;
+  width: 100%;
+}
 
 
 
