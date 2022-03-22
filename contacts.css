@@ -44,12 +44,31 @@ input[type=text],textarea{
   resize: vertical;
   width: 100%;
 }
+input[type=email]{
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  width: 100%;
+}
+input[type=phone]{
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  width: 100%;
+}
 input[type=submit]{
   padding: 12px 20px;
   border: none;
   color: white;
   cursor: pointer;
   background-color: green;
+}
+input[type=submit]:hover{
+  background-color: red;
 }
 
 
