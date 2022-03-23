@@ -49,9 +49,18 @@
     align-items: center;
   }
 
+  hr {
+    width: 30px;
+    height: 1px;
+    background: pink;
+    margin: 0 15px;
+  }
 
-
-
+  h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+ 
 
 /* end of the */
 
