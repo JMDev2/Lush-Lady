@@ -48,6 +48,13 @@
   width: 43%;
   
 }
+.article{
+  display: block;
+  background-color: #ffb6fa;
+}
+.btn{
+  display: block;
+}
 .text{
   display: flex;
   justify-content: space-around;
