@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#all{
+    background-image: linear-gradient(to right, rgba(224, 126, 167, 0.911) 20%,rgb(234, 173, 198) 100%, rgb(248, 234, 237)20%);
+
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    
+}
+.text-center h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.text-center img{
+    height: 18vh;
+    width: 18vh;
+}
+.text-center{
+    height: 18vh;
+
+}
+.nav2{
+    background-color: pink;
+    background-image: linear-gradient(to right, rgba(168, 18, 148, 0.911) 20%,rgb(235, 109, 92) 100%, rgb(245, 220, 217)20%);
+    height: 10vh;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    background-color: white;
+}
+.nav-link:hover{
+    background-color: rgb(146, 28, 146);
+}
+
+.hidden-content {
+    display: none;
+}
+
+/* footer */
+.footer{
+  background: #121213;
+  color:white;
+}
+.links ul{
+    list-style-type: none ;
+  }  
+  .links li a{
+    color: white;
+    transition: color .2s;
+  }
+  .links li a:hover{
+    text-decoration:none;
+        color:#4180CB;
+  } 
+
+.alternative {
+  position: center;
+  flex-grow: 3;
+  margin: auto;
+  max-width: 1700px;
+  max-height: 1700px;
+  
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: (4, 1fr);
+  grid-gap: 2vmin;
+  justify-items: center;
+  align-items: center;
+
+}
+  
+  /* Create two equal columns that sits next to each other */
+.columning {
+    -ms-flex: 0%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+.columning img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+  
