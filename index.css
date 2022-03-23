@@ -106,10 +106,11 @@
 .skincare1 img{
   height: 9rem;
   width: 7rem;
+  
 }
 .skincare2 img{
   height: 10rem;
-  width: 10rem;
+  width: 7rem;
 }
 
 .haircare{
@@ -157,10 +158,18 @@
   margin-top: -30%;
   margin-right: 25%;
   float: right;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   align-items: center;
   text-align: center;
   background-color: white;
+}
+.cart1{
+  border: 1px solid black;
+  height: 38px;
+  width: 9.9rem;
+  background-color: purple;
+  margin-top: 35px;
+  /* display: none; */
 }
 .skincare1{
   height: 15rem;
@@ -168,7 +177,7 @@
   margin-top: -45%;
   margin-right: 10%;
   float: right;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: block;
   align-items: center;
   text-align: center;
@@ -180,7 +189,7 @@
   margin-top: -45%;
   margin-right: 25%;
   float: right;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   align-items: center;
   text-align: center;
   background-color: white;
@@ -191,7 +200,7 @@
   margin-top: -24%;
   margin-right: 10%;
   float: right;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: block;
   align-items: center;
   text-align: center;
@@ -203,11 +212,19 @@
   margin-top: -24%;
   margin-right: 25%;
   float: right;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: block;
   align-items: center;
   text-align: center;
   background-color: white;
+}
+.skincare5 .cart5{
+  border: 1px solid black;
+  height: 38px;
+  width: 9.9rem;
+  background-color: purple;
+  margin-top: 20px;
+  /* display: none; */
 }
 .skincare5{
   height: 15rem;
@@ -215,7 +232,7 @@
   margin-top: -24%;
   margin-right: 40%;
   float: right;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: block;
   align-items: center;
   text-align: center;
@@ -233,41 +250,40 @@
   height: 10rem;
   width: 10rem;
 }
-.cart5{
+
+.skincare4 .cart4{
   border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
+  margin-top: 20px;
   /* display: none; */
 }
-.cart4{
+.skincare3 .cart3{
   border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
+  margin-top: 15px;
   /* display: none; */
 }
-.cart3{
+.skincare2 .cart2{
   border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
+  margin-top: 20px;
   /* display: none; */
 }
-.cart2{
-  border: 1px solid black;
-  height: 38px;
-  width: 9.9rem;
-  background-color: purple;
-  /* display: none; */
+.card-img-top{
+  transition: 1s;
 }
-.cart1{
-  border: 1px solid black;
-  height: 38px;
-  width: 9.9rem;
-  background-color: purple;
-  /* display: none; */
+.card-img-top:hover{
+  height: 300px;
+  width: 300px;
 }
+
+
 
 
 .button {
@@ -316,63 +332,23 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 
 
-/* footer */
 
 .footer{
   background: #121213;
   color:white;
-  
-  .links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
-        text-decoration:none;
-        color:#4180CB;
-        }
-    }
+}
+  .links ul{
+    list-style-type: none ;
   }  
-  .about-company{
-    i{font-size: 25px;}
-    a{
-      color:white;
-      transition: color .2s;
-      &:hover{color:#4180CB}
-    }
-  } 
-  .location{
-    i{font-size: 18px;}
+  .links li a{
+    color: white;
+    transition: color .2s;
   }
-  .copyright p{border-top:1px soli
+  .links li a:hover{
+    text-decoration:none;
+        color:#4180CB;
   }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);}  */
+  
