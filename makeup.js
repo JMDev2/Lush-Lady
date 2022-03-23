@@ -1,0 +1,1 @@
+$('button').show($(".Products").text())
