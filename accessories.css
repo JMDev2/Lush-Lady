@@ -1,0 +1,30 @@
+.accessoryproducts{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem; 
+    padding-right: 2rem;
+} 
+.card-text{
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    top: 210.7px;
+    width: 18.7rem;
+    height: 40px;
+    background-color:black;
+    color: rgb(252, 66, 196);
+    
+  }
+.card{
+    display: block;
+    margin: 0 auto;
+    height: 60%;
+    
+  }
+ .accessories h2,p{
+     text-align: center;
+ }
+#chic{
+    font-style: italic;
+font-size:xx-large;
+}
