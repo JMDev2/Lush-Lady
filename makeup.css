@@ -95,11 +95,25 @@ transition: transform 0.25s;
 .image__overlay:hover{
   opacity: 1;
 }
-.image__title{
+.image__title h2{
+  font-family: 'Playfair Display';font-size: 22px;
   font-size: 1.4rem;
   font-weight: bolder;
-  justify-content: last baseline;
-  background-color: black;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(65, 32, 54);
+
+
+}
+.image__title p{
+  font-family: 'Playfair Display';font-size: 22px;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(78, 25, 102);
 
 
 }
@@ -107,9 +121,9 @@ button{
   margin-left: 50%;
   margin-bottom: 3%;
   align-items: center;
-  background-color: #4CAF50; /* Green */
+  background-image: linear-gradient(to top, rgba(168, 18, 148, 0.911) 20%,rgb(235, 109, 92) 100%, rgb(245, 220, 217)20%);
   border: none;
-  color: white;
+  color: rgb(29, 13, 68);
   padding: 15px 20px;
   align-items: center;
   text-decoration:rgb(15, 17, 15) ;
@@ -130,15 +144,21 @@ button{
   color: rgb(175, 31, 91);
 }
 
-body{
+.main_body{
   background-color: rgb(250, 238, 242);
   font-family: 'Playfair Display';font-size: 22px;
 }
 h1{
-  color: rgb(90, 35, 44);
+  color: rgb(88, 44, 51);
+  font-weight: 900;
+  font-size: 3.5rem;
+  font-style: oblique;
 }
 h3{
-  color: rgb(75, 47, 102);
+  color: rgb(107, 9, 56);
+  font-weight: 500;
+  font-size: 2rem;
+  font-style: italic;
 }
 
 
@@ -168,28 +188,15 @@ h3{
 .footer{
   background: #121213;
   color:white;
-  
-  .links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
-        text-decoration:none;
-        color:#4180CB;
-        }
-    }
-  }  
-  .about-company{
-    i{font-size: 25px;}
-    a{
-      color:white;
-      transition: color .2s;
-      &:hover{color:#4180CB}
-    }
-  } 
-  .location{
-    i{font-size: 18px;}
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 }
+  .links ul{
+    list-style-type: none ;
+  }  
+  .links li a{
+    color: white;
+    transition: color .2s;
+  }
+  .links li a:hover{
+    text-decoration:none;
+        color:#4180CB;
+  }
