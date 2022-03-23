@@ -77,33 +77,40 @@ rel="stylesheet"
           </ul>
       </div>
 
-      <!--contacts section-->
-      <div class="container" style="background-image: url('https://st3.depositphotos.com/2024219/i/600/depositphotos_359990116-stock-photo-young-girl-isolated-pink-background.jpg');background-repeat: no-repeat;background-size: cover;">
-          <div style="text-align:center">
-            <h1>Contact Us</h1>
-            <p>LushLady is ready to assist you</p>
+  <!--contacts section-->
+      <section class="contacts" id="contacts">
+        <div class="max-width">
+          <div class="contacts-content">
+            <div id="text-1">Contact Us</div>
+            </div>
+            </div>
+        </section>
+      <div class="container mt-2">
             <div class="row">
-                <div class="col-md-6">
-                    <h2>Information</h2>
-                    <p>Contact us to book an appointment or get more information about any <br>of products or services you are interested in.Our operators will provide you<br> will all the information about us you need to know</p>
+                <div class="col-md-7">
+                    <h2 id="info1">Information</h2>
+                    <p id="para1">Contact us to book an appointment or get more information about any <br>of our products or services you are interested in.Our operators will<br> provide you with all the information about us you need to know</p>
                     <p><i class="fa-solid fa-location-dot"></i> 22 Ngong Lane, Nairobi, Kenya</p>
                     <p><i class="fa-solid fa-clock"></i> Mon - Sat 8.00 am- 18.00pm</p>
                     <p><i class="fa-solid fa-phone"></i> Call Free:(541) 754-3010</p>
                     <p><i class="fa-solid fa-envelope"></i> lushlady@gmail.com</p>
-                    
+                    <h2 id="info2">Our Offices</h2>
+                    <p id="para2">Nairobi , Kenya - Headquarters</p>
+                    <p>Mombasa , Kenya - Nyali Branch</p>
+                    <p>Kisumu , Kenya - Bondo Branch </p> 
                   </div>
-                <div class="col-md-6">
-                    <h2>Contact form</h2>
+                <div class="col-md-5">
+                    <h2 id="info3">Contact Form</h2>
                     <!-- <form action=""> -->
                       <form action="https://formspree.io/f/mqknlkdz" method="post" id="form">
                         <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.."required>
                         <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your name..">
+                        <input type="text" id="lname" name="lastname" placeholder="Your name.."required>
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                        <input type="email" id="email" name="email" placeholder="Enter your email"required>
                         <label for="mobilenumber">Phone</label>
-                        <input type="phone" id="phone" name="phone" placeholder="phone">
+                        <input type="phone" id="phone" name="phone" placeholder="phone"required>
                         <label for="message">Message</label>
                         <textarea id="message" name="message" placeholder="Your message here.." style="height:160px"></textarea>
                         <input type="submit" value="submit">
@@ -111,7 +118,7 @@ rel="stylesheet"
                     </div>
                   </div>
                 </div>
-              </div>
+              
 <!--End of contacts section-->
 
 <!--location map-->
