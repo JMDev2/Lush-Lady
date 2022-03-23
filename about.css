@@ -34,32 +34,18 @@
 
 
 /* styling the about us page */
-.row {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 10px auto;
-    padding: 5px 30px;
-    width: 800px;
-    box-shadow: 0 0 5px pink
-  }
 
-  .hr {
-    display: flex;
-    align-items: center;
+  .mission p{
+      text-align: center;
   }
-
-  hr {
-    width: 30px;
-    height: 1px;
-    background: pink;
-    margin: 0 15px;
-  }
-
-  h2 {
+  .mission h2 {
     font-size: 25px;
     font-weight: normal;
     text-transform: uppercase;
+    color: rgba(168, 18, 148, 0.911);
+    display: block;
+    margin-top: 5%;
+    text-align: center;
   }
  
   .mission-txt {
@@ -67,49 +53,99 @@
     font-weight: 500px;
     font-style: italic;
     margin-top: 0;
+    font-weight: bold;
   }
+/* .about{
+    text-align: center;
+    margin-top: 3%;
+    cursor: pointer;
+    
+}
+.about h2{
+  color: rgba(168, 18, 148, 0.911);
+  cursor: pointer;
+}
 
-  div img {
-    width: 150px;
-    filter: drop-shadow(0 10px 5px black);
-  }
+.about img{
+height: 70vh;
+width: 42vw;
+float: right;
+padding-right: 8%;
+box-sizing: border-box;
 
-  p {
-    text-align: justify;
-  }
+}
 
-  .ourservices{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
+.about p{
+    height: 70vh;
+    width: 60vh;
+    margin-left: 30%;
+    justify-content: space-evenly;
 
-  .product-unit {
-    margin: 25px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+} */
+.about h2{
+  text-align: center;
+  color: rgba(168, 18, 148, 0.911);
+}
 
-  .product-unit img {
-    border-radius: 100px;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 10px;
-  }
+.about img{
+  width: 27vw;
+}
 
-  .product-unit p {
-    text-align: left;
-    margin: 2px;
-  }
+.about p{
+line-height: 2;
+margin-top: 10%;
+}
+.services h2{
+  text-align: center;
+  color: rgba(168, 18, 148, 0.911);
+}
 
-  .product-unit p:first-of-type {
-    font-weight: bolder;
-    margin-bottom: 5px;
-  }
+.services{
+  margin-top: 5%;
+}
+
+.services h6{
+margin-left: 5%;
+
+}
+
+.services img{
+  width: 10vw;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: pink;
+}
+
+.stylist h2{
+  text-align: center;
+color: rgba(168, 18, 148, 0.911);
+}
+
+.stylist p{
+   margin-left: 10%;
+   line-height: 2;
+margin-top: 10%;
+}
+
+.stylist{
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* end of the */
 

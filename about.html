@@ -27,6 +27,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barriecito&family=Lobster&family=Nanum+Gothic:wght@700&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,500;1,100&family=Teko:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="about.css">
 
 </head>
@@ -82,62 +84,127 @@
 
     <!-- Abut us -->
 
-    <div class="container">
-        <div class="row">
-            <div class="hr">
-                <hr>
-                <h2>Our Mission</h2>
-                <hr>
-            </div>
-
-            <p class="mission-txt">"It is our goal to exceed your expectations!<br> Come experience a family atmosphere where
+    <div class="container-fluid">
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p class="mission-txt">"It is our goal to exceed your expectations!<br> Come experience a family atmosphere
+                where
                 you come as guests and leave as friends."</p>
-
         </div>
+    </div>
+    <!-- <div class="about">
+        <h2>About</h2>
+        <img src="./about-image/Hairdressing.jpg" alt="Hair dressing" style="height: 50vh;">
+        <p>Located along Ngong road, 22 Ngong Lane, Lush Lady Hair & Beauty salon provides you a range of highly
+            trendy hair products ,<br> styling, makeup, beauty products, massage. It was established in the year
+            2005 and has a team of highly skilled and experienced stylists. <br>
+            We're dedicated to giving you the very best of products and services, with a focus on
+            dependability, customer service and uniqueness all under one roof
+            With experienced hairdressers, hair-care stylists and peaceful ambience, we aim to give you the best
+            professional beauty parlour experience.
 
-        <div class="row">
+        </p>
+    </div> -->
+
+    <div class="container">
+        <div class="about">
             <h2>About</h2>
-            <div>
-                <img src="./about-image/Hairdressing.jpg" alt="Hair dressing">
-                <p>Located along Ngong road, 22 Ngong Lane, Lush Lady Hair & Beauty salon provides you a range of highly trendy hair  products ,<br> styling, makeup, beauty products, massage. It was established in the year 2005 and has a team of highly skilled and experienced stylists.
-                </p>
-                <p> We're dedicated to giving you the very best of products and services, with a focus on
-                    dependability, customer service and uniqueness all under one roof</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sint eveniet ipsam quaerat at
+                        pariatur illum voluptatem atque tempore molestias modi, fuga maiores ipsa! Modi non aut maxime
+                        architecto maiores ullam excepturi temporibus soluta placeat blanditiis libero possimus facere
+                        optio doloremque, quis corporis numquam eaque deleniti, culpa ipsum nostrum. Soluta?</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./about-image/Hairdressing.jpg" alt="hairdressing">
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
+    <div class="container">
+        <div class="stylist">
+            <h2>Stylist</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./about-image/hairdresser.jpg" alt="stylist">
+                </div>
+                <div class="col-md-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sint eveniet ipsam quaerat at
+                        pariatur illum voluptatem atque tempore molestias modi, fuga maiores ipsa! Modi non aut maxime
+                        architecto maiores ullam excepturi temporibus soluta placeat blanditiis libero possimus facere
+                        optio doloremque, quis corporis numquam eaque deleniti, culpa ipsum nostrum. Soluta?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="services">
             <h2>Our Services</h2>
-            <div class="services">
-                <div class="product-unit">
-                    <img src="./about-image/Accessories.jpeg" alt="Accessories">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="./about-image/Accessories.jpeg" alt="Accessories" style="height: 23.1vh;">
                     <h6>Accessories</h6>
-                    <p></p>
 
                 </div>
-                <div class="product-unit">
+                <div class="col-md-2">
                     <img src="./about-image/makeup.jpeg" alt="Makeup">
                     <h6>Make up Application</h6>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus unde aliquid laborum voluptatum
-                        distinctio nobis?'</p>
 
                 </div>
-                <div class="product-unit">
-                    <img src="./about-image/wigs.jpeg" alt="Wigs">
-                    <h6>Wig Installation</h6>
-                    <p>We have a team of professionals with good listening ability to interpret your requests.We offer,micro weaving,gitgibraiding,hair colouring</p>
+                <div class="col-md-2">
+                    <img src="./about-image/hair.jpeg.jpeg" alt="Wigs">
+                    <h6>Micro Weaving</h6>
+
+                </div>
+                <div class="col-md-2">
+                    <img src="./about-image/nails.jpeg" alt="Nails">
+                    <h6>Nail Care</h6>
                 </div>
 
-            </div>
-            <div class="product-unit">
-               <img src="./about-image/nails.jpeg" alt="Nails">
-                <h6>Nail Care</h6>
-                <p>Providing high-quality manicures and pedicures,We discuss treatments,clean, file, trim, polish such as applying artificial nails.</p>
-            </div>
+                <div class="col-md-2">
+                    <img src="./about-image/facials.jpg" alt="Facials" style="height: 22vh">
+                    <h6>Nail Care</h6>
+                </div>
+
+                <div class="col-md-2">
+                    <img src="./about-image/pedi.jpg" alt="Pedicure" style="height: 22vh;">
+                    <h6>Nail Care</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="./about-image/pedi.jpg" alt="Pedicure" style="height: 22vh;">
+                    <h6>Nail Care</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="./about-image/pedi.jpg" alt="Pedicure" style="height: 22vh;">
+                    <h6>Nail Care</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="./about-image/pedi.jpg" alt="Pedicure" style="height: 22vh;">
+                    <h6>Nail Care</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="./about-image/pedi.jpg" alt="Pedicure" style="height: 22vh;">
+                    <h6>Nail Care</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="./about-image/pedi.jpg" alt="Pedicure" style="height: 22vh;">
+                    <h6>Nail Care</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="./about-image/pedi.jpg" alt="Pedicure" style="height: 22vh;">
+                    <h6>Nail Care</h6>
+                </div>
             </div>
         </div>
-
     </div>
+
+
+
+
+
 </body>
 
 </html>
