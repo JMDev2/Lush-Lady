@@ -60,6 +60,9 @@
 .beauty p{
   text-align: center;
 }
+.change-pink{
+  background-color: #ffb6fa;
+}
 .card-text{
   border: 1px solid black;
   position: relative;
@@ -69,6 +72,8 @@
   height: 40px;
   background-color: #000000;
   color: white;
+  border-radius: 30px 0 0 0 ;
+  /* display: none; */
   
 }
 .beauty{
@@ -85,14 +90,14 @@
   display: flex;
   background-color: #ffb6fa;
   padding: 5px;
-  height: 550px;
+  height: auto;
   padding-top: 20px;
 }
 
 .main{
   background-color: #ffb6fa;
   padding: 5px;
-  height: 550px;
+  height: 580px;
   padding-top: 20px;
 }
 .mainimage img{
@@ -229,55 +234,41 @@
   width: 10rem;
 }
 .cart5{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
-  display: none;
+  /* display: none; */
 }
 .cart4{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
-  display: none;
+  /* display: none; */
 }
 .cart3{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
-  display: none;
+  /* display: none; */
 }
 .cart2{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
-  display: none;
+  /* display: none; */
 }
 .cart1{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 38px;
   width: 9.9rem;
   background-color: purple;
-  display: none;
+  /* display: none; */
 }
-.cart22{
-  /* border: 1px solid black; */
-  height: 38px;
-  width: 9.9rem;
-  background-color: purple;
-  display: none;
-}
-.cart11{
-  /* border: 1px solid black; */
-  height: 54px;
-  width: 9.9rem;
-  background-color: purple;
-  
-  display: none;
-}
+
 
 .button {
   background-color: #1c87c9;
@@ -353,10 +344,13 @@
 
 /* footer */
 
+
+/* footer */
+
 .footer{
-  background-color: #121213;
+  background: #121213;
+  color:white;
   
-}
   .links{
     ul {list-style-type: none;}
     li a{
@@ -379,4 +373,6 @@
   .location{
     i{font-size: 18px;}
   }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  .copyright p{border-top:1px soli
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);}  */
