@@ -51,6 +51,10 @@
 .article{
   display: block;
   background-color: #ffb6fa;
+
+}
+h4{
+  font-family: 'Permanent Marker', cursive;
 }
 .btn{
   display: block;
