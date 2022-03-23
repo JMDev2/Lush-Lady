@@ -29,3 +29,37 @@
 font-size:xx-large;
 font-family: 'Pacifico', cursive;
 }
+/* #desc1{
+  text-align: center;
+ margin-top: 7rem;
+ color: rgb(252, 66, 196);
+} */
+
+ #desc1, #desc2 ,#desc3 ,#desc4 ,#desc5 ,#desc6 ,#desc7 ,#desc8 {
+  text-align: center;
+ /* margin-top: 7rem; */
+ color: rgb(252, 66, 196);
+}
+
+
+
+
+
+
+
+
+.footer{
+  background: #121213;
+  color:white;
+}
+  .links ul{
+    list-style-type: none ;
+  }  
+  .links li a{
+    color: white;
+    transition: color .2s;
+  }
+  .links li a:hover{
+    text-decoration:none;
+        color:#4180CB;
+  }
