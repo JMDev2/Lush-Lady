@@ -4,7 +4,7 @@
 }
 
 #all{
-    background-image: url(./background1.jpg);
+    background-image: url("../images/background1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -79,7 +79,7 @@ h4{
 .nav2{
     background-color: pink;
     background-image: linear-gradient(to right, rgba(168, 18, 148, 0.911) 20%,rgb(235, 109, 92) 100%, rgb(245, 220, 217)20%);
-    height: 10vh;
+    
 }
 .nav-item a{
     color: white;
