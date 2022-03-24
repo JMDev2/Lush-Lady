@@ -1,13 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-
-
 }
 
 #all{
-    /* background-image: linear-gradient(to right, rgba(224, 126, 167, 0.911) 20%,rgb(234, 173, 198) 100%, rgb(248, 234, 237)20%); */
-    background-image: url(./Image/background.jpg);
+    background-image: url(./background1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,8 +19,6 @@ p{
 h3{
     font-size: 30px;
     font-style: italic;
-
-
 }
 
 h4{
@@ -40,7 +35,7 @@ h4{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: pink;
     opacity: 0.8;
     overflow: hidden;
     width: 100%;
@@ -54,7 +49,7 @@ h4{
 }
 
 .text {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -100,6 +95,40 @@ h4{
     display: none;
 }
 
+.alternative {
+    position: center;
+    flex-grow: 3;
+    margin: auto;
+    max-width: 1700px;
+    max-height: 1700px;
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: (4, 1fr);
+    grid-gap: 2vmin;
+    justify-items: center;
+    align-items: center;
+  
+  }
+    
+    /* Create two equal columns that sits next to each other */
+  .columning {
+      -ms-flex: 0%; /* IE 10 */
+      flex: 50%;
+      padding: 0 4px;
+  }
+  .columning img {
+      margin-top: 8px;
+      vertical-align: middle;
+  }
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {}
+    
 /* footer */
 .footer{
   background: #121213;
@@ -117,37 +146,3 @@ h4{
         color:#4180CB;
   } 
 
-.alternative {
-  position: center;
-  flex-grow: 3;
-  margin: auto;
-  max-width: 1700px;
-  max-height: 1700px;
-  
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: (4, 1fr);
-  grid-gap: 2vmin;
-  justify-items: center;
-  align-items: center;
-
-}
-  
-  /* Create two equal columns that sits next to each other */
-.columning {
-    -ms-flex: 0%; /* IE 10 */
-    flex: 50%;
-    padding: 0 4px;
-}
-.columning img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-  
