@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    
+}
+.text-center h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.text-center img{
+    height: 18vh;
+    width: 18vh;
+}
+.text-center{
+    height: 18vh;
+
+}
+.nav2{
+    background-color: pink;
+    background-image: linear-gradient(to right, rgba(168, 18, 148, 0.911) 20%,rgb(235, 109, 92) 100%, rgb(245, 220, 217)20%);
+    height: 10vh;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    background-color: white;
+}
+
+
+/* styling the about us page */
+
+  .mission p{
+      text-align: center;
+  }
+  .mission h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgba(168, 18, 148, 0.911);
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+  }
+ 
+  .mission-txt {
+    font-size: 18px;
+    font-weight: 500px;
+    font-style: italic;
+    margin-top: 0;
+    font-weight: bold;
+  }
+/* .about{
+    text-align: center;
+    margin-top: 3%;
+    cursor: pointer;
+    
+}
+.about h2{
+  color: rgba(168, 18, 148, 0.911);
+  cursor: pointer;
+}
+
+.about img{
+height: 70vh;
+width: 42vw;
+float: right;
+padding-right: 8%;
+box-sizing: border-box;
+
+}
+
+.about p{
+    height: 70vh;
+    width: 60vh;
+    margin-left: 30%;
+    justify-content: space-evenly;
+
+} */
+.about h2{
+  text-align: center;
+  color: rgba(168, 18, 148, 0.911);
+}
+
+.about img{
+  width: 27vw;
+}
+
+.about p{
+line-height: 2;
+margin-top: 10%;
+}
+.services h2{
+  text-align: center;
+  color: rgba(168, 18, 148, 0.911);
+}
+
+.services{
+  margin-top: 5%;
+}
+
+.services h6{
+margin-left: 5%;
+
+}
+
+.services img{
+  width: 10vw;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: pink;
+}
+
+.stylist h2{
+  text-align: center;
+color: rgba(168, 18, 148, 0.911);
+}
+
+.stylist p{
+   margin-left: 10%;
+   line-height: 2;
+margin-top: 10%;
+}
+
+.stylist{
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of the */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+  background: #121213;
+  color:white;
+}
+  .links ul{
+    list-style-type: none ;
+  }  
+  .links li a{
+    color: white;
+    transition: color .2s;
+  }
+  .links li a:hover{
+    text-decoration:none;
+        color:#4180CB;
+  }
+ 
