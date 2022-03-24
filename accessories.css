@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.accessoryproducts{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem; 
+    padding-right: 2rem;
+} 
+.card-text{
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    top: 210.7px;
+    width: 18.7rem;
+    height: 40px;
+    background-color:black;
+    color: rgb(252, 66, 196);
+    
+  }
+.card{
+    display: block;
+    margin: 0 auto;
+    height: 60%;
+    
+  }
+ .accessories h2,p{
+     text-align: center;
+ }
+#chic{
+font-size:xx-large;
+font-family: 'Pacifico', cursive;
+}
+/* #desc1{
+  text-align: center;
+ margin-top: 7rem;
+ color: rgb(252, 66, 196);
+} */
+
+ #desc1, #desc2 ,#desc3 ,#desc4 ,#desc5 ,#desc6 ,#desc7 ,#desc8 {
+  text-align: center;
+ /* margin-top: 7rem; */
+ color: rgb(252, 66, 196);
+}
+
+
+
+
+
+
+
+
+.footer{
+  background: #121213;
+  color:white;
+}
+  .links ul{
+    list-style-type: none ;
+  }  
+  .links li a{
+    color: white;
+    transition: color .2s;
+  }
+  .links li a:hover{
+    text-decoration:none;
+        color:#4180CB;
+  }
